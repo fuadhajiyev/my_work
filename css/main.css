@@ -1,0 +1,729 @@
+html,
+body,
+#cover {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+#cover {
+     
+    background: url('../images/alarm-clock-art-background-1037993.jpg') no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.fixed-top {
+    margin: 10px auto;
+    max-width: 1140px;
+    transition: 0.2s all linear;
+}
+
+.row h2 {
+    position: relative;
+    
+    margin-top: 250px;
+    
+}
+
+section img {
+
+  
+    height: 100px;
+
+}
+
+h1 {
+    margin-top: 20%;
+    font-family: 'Roboto', sans-serif;
+    color: #961015;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #022677;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.btn-primary {
+
+    background-color: #fa7500;
+    border-style: none;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+.btn-primary:hover {
+
+
+    background-color: #d04410;
+}
+
+a.nav-link {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #fa7500 !important;
+    transition: color 0.5s ease;
+}
+
+
+a.nav-link:hover {
+
+    color: #04aa24 !important;
+}
+
+
+/*
+                Section Services
+*/
+
+
+#services {
+
+
+    padding: 100px 0;
+}
+
+.services-top h3 {
+
+    font-family: 'Montserrat';
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.services-top p {
+
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+}
+
+
+.item-circle {
+
+    border: 3px solid #fa7500;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 210px;
+}
+
+
+
+.services-content i {
+    color: #fa7500;
+    line-height: 100px;
+
+
+}
+
+.services-content h4 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    margin-top: 24px;
+}
+
+.services-content p {
+    font-family: 'Roboto Slab';
+    font-size: 14px;
+    color: #777;
+ 
+}
+
+
+.card img{
+    
+    height: 320px;
+    
+    width: 300px;
+    
+    background-color: #959595;
+}
+
+
+#portfolio {
+    
+    background-color: #f7f7f7;
+    padding-top: 100px ;
+    padding-bottom: 70px; 
+    
+    
+    
+}
+
+.portfolio-top h3 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.portfolio-top p{
+     font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+    
+    
+}
+
+
+.card {
+    
+    border-style: none;
+    
+}
+
+
+.portfolio-top .row {
+    
+    margin-bottom: 30px;
+}
+
+.portfolio-content .card-title {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.portfolio-content .card-subtitle{
+    
+    font-family: 'Roboto', serif;
+    
+    font-size: 14px;
+    font-style: italic;
+    
+}
+
+
+
+.aboutUs-content img {
+    
+
+    
+    width: 182px;
+    height: 182px;
+    line-height: auto;
+    border:solid 4px;
+    color: #dbdbdb;
+    
+    border-radius: 182px;
+}
+
+
+
+#aboutUs {
+    
+   
+    
+    padding: 120px 0;
+}
+
+
+
+.aboutUs-top p{
+    
+
+   font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+    
+}
+
+.aboutUs-top h3{
+    margin-top: 60px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    
+    
+}
+
+
+.aboutUs-content .row {
+    
+    margin-bottom: 90px;
+}
+
+.aboutUs-content h4 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.aboutUs-content p {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+    
+}
+
+.aboutUs-content {
+    position: relative;
+}
+
+.aboutUs-content:before {
+    
+    top:0 ;
+    bottom:0;
+    position: absolute;
+    content: " ";
+    width: 2px;
+    background-color: #dbdbdb;
+    left: 50%;
+    margin-left: 4px;
+    
+  
+}
+
+
+.about-circle {
+    position:relative;
+    text-align: center;
+    
+}
+
+.about-circle:before {
+    
+    top:0;
+    bottom: 0;
+
+    position: absolute;
+    content: " ";
+    width: 182px;
+    height: 182px;
+    background-color: rgb(36, 195, 23);
+    border-radius: 182px;
+    border: 4px solid #dbdbdb;
+    left: 50%;
+    margin-left: -85px;
+}
+
+
+.about-circle .yellow-text {
+    
+    position: relative;
+    z-index: 1;
+    padding-top: 42px; 
+    margin-left: 9px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: aliceblue;
+    
+}
+
+
+    
+/*     PERSONAL TEAM          */
+
+
+
+#team {
+     padding-top: 120px;
+    padding-bottom: 70px;
+    background-color: #f9f9f9;
+}
+
+.team-top h3 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.team-top p {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+    
+}
+
+
+.team-circle img {
+    
+    width: 220px;
+    height:200px;
+    
+    border-radius: 220px;
+    margin: 0 auto;
+    border: 6px solid #fff;
+    margin: 20px;
+        
+}
+
+.team-content h4 {
+     font-family: 'Montserrat';
+     font-size: 16px;
+    font-weight: 700;
+}
+
+.team-content h5{
+    
+     font-family: 'Roboto', serif;
+    font-size: 14px;
+    color: aliceblue;
+    
+    
+}
+
+.social-icons {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.social-icon {
+    
+    display:inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+
+.social-icon .fab {
+    
+    border: 2px solid #150101;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    line-height: 26px;
+}
+
+.team-content p {
+    
+    margin: 50px auto;
+     font-family: 'Roboto';
+    font-size: 16px;
+    color: #4d4040;
+}
+
+
+
+/* PARTNERLER */
+
+#partner {
+    
+    padding: 60px 0; 
+}
+
+.container .col-sm-3 img {
+    
+    width: 130px;
+    height: 80px;
+}
+
+#contact {
+    background: url('../images/contact-us-background-1290x540.jpg') no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    padding: 120px 0;
+    
+    
+}
+
+
+.contact-top h3 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: azure;
+}
+
+.contact-top p {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #d9d3d3;
+    margin-bottom: 70px;
+    
+}
+
+#name, #e-mail, #subject {
+    
+    
+    width: 500px;
+    height: 40px;
+    margin-bottom: 25px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin-left: 5%;
+}
+
+textarea {
+    width: 90%;
+    height: 172px;
+    border-style: none;
+     border-radius: 3px;
+    padding-left: 10px;
+    padding-top:  8px;
+     
+    
+}
+
+.golden-form-element {
+    
+     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/*---------FOOTER-----------*/
+
+
+#footer {
+    padding: 22px 0;
+}
+
+#footer p{
+     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7e7a7a;
+     padding-right: 157px;
+        line-height: 40px;
+    
+}
+
+.company-social-icons {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.company-social-icon {
+    
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: antiquewhite;
+}
+
+.company-social-icon .fab {
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: black;
+    line-height: 40px;
+    padding-left: 13px;
+    
+}
+
+
+.fixed-top.change-fix-top {
+    margin-top:0;
+    background-color: rgba(0,0,0,0.7);
+    max-width: 2000px;
+}
+
+
+
+
+/*        MEDIA Queries           */
+
+
+@media (max-width: 575px) { 
+    
+    
+    .card {
+        
+        padding-left: 25%;
+        
+    }
+    
+
+#portfolio {
+    
+    background-color: #f7f7f7;
+    padding-top: 100px ;
+    padding-bottom: 70px; 
+  
+}
+.card img{
+    
+    height: 320px;
+    
+    width: 300px;
+    
+    background-color: #959595;
+    
+}
+    
+
+.portfolio-top h3 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+
+.portfolio-top p{
+     font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+   
+    
+    
+    
+}
+
+.row h2 {
+    position: relative;
+    
+    margin-top: 30px;
+    font-size: 50px;
+    
+}
+
+
+  
+
+}
+@media (max-width: 767px) { 
+    
+    .card {
+        
+        padding-left: 30%;
+    }
+    
+    
+
+    .card-title{
+        
+        text-align:left;
+    }
+    
+    .card-subtitle{
+        
+        text-align: left;
+    }
+
+
+.navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+.navbar-light .navbar-toggler {
+    border: 2px solid #0f0108; 
+        
+    }
+    
+.row h2 {
+    position: relative;
+    margin-top: 300px;
+    
+}
+}
+
+
+@media (max-width: 991px) { 
+    
+    
+
+
+#name, #e-mail, #subject {
+    
+    
+    width: 240px;
+    height: 40px;
+    margin-bottom: 25px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin-left: 5%;
+}
+
+textarea {
+    width: 90%;
+    height: 172px;
+    border-style: none;
+     border-radius: 3px;
+    padding-left: 10px;
+    padding-top:  8px;
+     
+    
+}
+
+.golden-form-element {
+    
+     font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+/*PORTFOLIO RESPONSIVE*/
+    
+    
+.card img {
+    
+    height: 200px;
+    
+    width: 200px;
+    
+    background-color: #959595;
+}
+
+
+ .team-circle img {
+    
+    width: 200px;
+    height:190px;
+    
+    border-radius: 200px;
+    margin: 0 auto;
+    border: 6px solid #fff;
+    margin: 20px;
+        
+}
+    .row h2 {
+    position: relative;
+    margin-top: 300px;
+    
+}
+
+}
+
+
+
+
+
+
